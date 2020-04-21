@@ -8,11 +8,11 @@ use Symfony\Component\Process\Process;
 
 class Dns
 {
-    protected string $domain = '';
+    protected $domain = '';
 
-    protected string $nameserver = '';
+    protected $nameserver = '';
 
-    protected array $recordTypes = [
+    protected $recordTypes = [
         'A',
         'AAAA',
         'CNAME',
